@@ -5,10 +5,12 @@
     function mostrar_about() {
         document.getElementById("about-us").style.display="block";
         document.getElementById("products-container").style.display="none";
+        document.getElementById("main-container").style.display="none";
     }
     function mostrar_productos() {
         document.getElementById("products-container").style.display="block";
         document.getElementById("about-us").style.display="none";
+        document.getElementById("main-container").style.display="none";
     }
 
 
