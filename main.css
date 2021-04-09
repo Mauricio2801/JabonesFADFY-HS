@@ -16,7 +16,7 @@ body{
     margin: auto;
     padding: 30px 0px 0px 0px;
     height: 15%;
-    width: 25%;
+    width: 22%;
 }
 
 h1{
@@ -31,6 +31,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 15px;
 }
 
 .hoja{
@@ -64,4 +65,103 @@ h3{
     0%  { -webkit-transform:rotateZ(-5deg); }
     50% { -webkit-transform:rotateZ( 0deg) scale(.9); }
     100%{ -webkit-transform:rotateZ( 4deg); }
+  }
+
+  #about-us{
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  header{
+      display: flex;
+      flex-direction: row;
+      margin: 4% 8% 3% 3%;
+      justify-content: space-between;
+  }
+
+  .logo {
+      width: 15%;
+      height: 10%;
+  }
+
+  h2{
+    color:white;
+    text-shadow: 1px 2px black;
+    font-size: 30px;
+  }
+
+  .fa-bars{
+    font-size: 30px;
+    color: #23E4CA;
+    padding-top: 2%;
+    cursor: pointer;
+  }
+
+  .content {
+      display: flex;
+      flex-direction: column;
+      margin: 0% 15%;
+      justify-content: center;
+  }
+
+  .container-info{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 1%;
+  }
+
+  .icono {
+    width: 15%;
+    height: 30%;
+    background-color: #C4C4C4;
+    margin: 2% 0px;
+    border-radius: 100px;
+    
+  }
+
+  .icons{
+    padding: 30%;
+    color: #172738;
+    font-size: 50px;
+  }
+
+  .box {
+      width: 40%;
+      height: 10%;
+      background-color: #C4C4C4;
+      margin: 1.5% 0px;
+      border-radius: 15px;
+      cursor: pointer;
+  }
+
+  h4{
+      text-align: center;
+      color: #172738;
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  .footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10% 20% 0% 20%;
+  }
+
+  .social {
+    color: #C4C4C4;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  hr{
+      width: 40%;
+      margin: 40px auto;
+  }
+  h6 {
+      font-size: 20px;
+      color: #C4C4C4;
+      text-align: center;
   }
