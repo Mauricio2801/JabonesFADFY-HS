@@ -24,6 +24,8 @@ h1{
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     font-size: 80px;
+    color:white;
+    text-shadow: 1px 2px black;
 }
 
 .main_menu{
@@ -57,7 +59,7 @@ h3{
 }
 
 .hoja:hover{
-    -webkit-animation: tiembla 0.1s infinite;
+    -webkit-animation: tiembla 0.5s infinite;
   }
   @-webkit-keyframes tiembla{
     0%  { -webkit-transform:rotateZ(-5deg); }
