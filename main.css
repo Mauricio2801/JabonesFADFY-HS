@@ -90,7 +90,7 @@ h3{
     font-size: 30px;
   }
 
-  .fa-bars{
+  .fa-times{
     font-size: 30px;
     color: #23E4CA;
     padding-top: 2%;
@@ -134,6 +134,16 @@ h3{
       margin: 1.5% 0px;
       border-radius: 15px;
       cursor: pointer;
+  }
+
+  p{
+    padding: 0% 10%;
+    text-align: justify;
+    display: none;
+  }
+
+  #info3 {
+    display: none;
   }
 
   h4{

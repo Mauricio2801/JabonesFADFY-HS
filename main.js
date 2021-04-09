@@ -1,4 +1,9 @@
     document.getElementById("about").onclick = function() {mostrar_about()};
+    document.getElementById("close").onclick = function() {cerrar_about()};
+    document.getElementById("controler-info").onclick = function() {mostrar_info()};
+    document.getElementById("controler-info1").onclick = function() {mostrar_info1()};
+    document.getElementById("controler-info2").onclick = function() {mostrar_info2()};
+    document.getElementById("controler-info3").onclick = function() {mostrar_info3()};
 
     document.getElementById("products").onclick = function() {mostrar_productos()};
 
@@ -7,12 +12,29 @@
         document.getElementById("products-container").style.display="none";
         document.getElementById("main-container").style.display="none";
     }
+    function mostrar_info(){
+        document.getElementById("info").style.display="block";
+    }
+    function mostrar_info1(){
+        document.getElementById("info1").style.display="block";
+    }
+    function mostrar_info2(){
+        document.getElementById("info2").style.display="block";
+    }
+    function mostrar_info3(){
+        document.getElementById("info3").style.display="block";
+    }
+
     function mostrar_productos() {
         document.getElementById("products-container").style.display="block";
         document.getElementById("about-us").style.display="none";
         document.getElementById("main-container").style.display="none";
     }
-
+    function cerrar_about(){
+        document.getElementById("about-us").style.display="none";
+        document.getElementById("products-container").style.display="none";
+        document.getElementById("main-container").style.display="block";
+    }
 
 
 //Desaparecer imagen de producto cuando se pone mouse encima
