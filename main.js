@@ -1,4 +1,7 @@
 document.getElementById("about").onclick = function () { mostrar_about() };
+document.getElementById("products").onclick = function () { mostrar_productos() };
+document.getElementById("contact").onclick = function () { mostrar_contacto() };
+
 var closer = document.getElementsByClassName("close");
 
 for (var i = 0; i < closer.length; i++) {
@@ -12,13 +15,29 @@ document.getElementById("controler-info1").onclick = function () { mostrar_info1
 document.getElementById("controler-info2").onclick = function () { mostrar_info2() };
 document.getElementById("controler-info3").onclick = function () { mostrar_info3() };
 
-document.getElementById("products").onclick = function () { mostrar_productos() };
+
 
 function mostrar_about() {
     document.getElementById("about-us").style.display = "block";
     document.getElementById("products-container").style.display = "none";
     document.getElementById("main-container").style.display = "none";
+    document.getElementById("contact-container").style.display = "none";
 }
+
+function mostrar_productos() {
+    document.getElementById("products-container").style.display = "block";
+    document.getElementById("about-us").style.display = "none";
+    document.getElementById("main-container").style.display = "none";
+    document.getElementById("contact-container").style.display = "none";
+}
+
+function mostrar_contacto() {
+    document.getElementById("products-container").style.display = "none";
+    document.getElementById("about-us").style.display = "none";
+    document.getElementById("main-container").style.display = "none";
+    document.getElementById("contact-container").style.display = "block";
+}
+
 function mostrar_info() {
     document.getElementById("info").style.display = "block";
 }
@@ -32,15 +51,12 @@ function mostrar_info3() {
     document.getElementById("info3").style.display = "block";
 }
 
-function mostrar_productos() {
-    document.getElementById("products-container").style.display = "block";
-    document.getElementById("about-us").style.display = "none";
-    document.getElementById("main-container").style.display = "none";
-}
+
 function cerrar() {
     document.getElementById("about-us").style.display = "none";
     document.getElementById("products-container").style.display = "none";
     document.getElementById("main-container").style.display = "block";
+    document.getElementById("contact-container").style.display = "none";
 }
 
 
