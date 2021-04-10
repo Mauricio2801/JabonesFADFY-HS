@@ -280,6 +280,10 @@ input[type=submit]:hover {
   font-weight: bold;
   color: white;
   border-radius: 5px;
-  background-color: #396493;
-  padding: 20px;
+  background-color: #396493;  
+  padding-top: 0;
+  padding-right: 200px;
+  padding-bottom:0;
+  padding-left:200px;
+
 }
