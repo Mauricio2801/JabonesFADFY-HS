@@ -4,7 +4,7 @@ body{
     background-color: #396493;
 }
 #main-container{
-    background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.8);
     background-image: url(./resources/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -287,3 +287,71 @@ input[type=submit]:hover {
   padding-left:200px;
 
 }
+
+@media only screen and (max-width: 1020px) {
+  .fas{
+    width: 10%;
+    height: 25%;
+}
+
+.form{
+  padding-left: 50px;
+  padding-right: 50px;
+}}
+
+@media only screen and (max-width: 970px) {
+  .fas{
+    width: 5%;
+    height: 20%;
+}
+
+.two-prod{
+  flex-direction: column;
+  width: 100%;
+}
+
+.products{
+  width: 80%;
+}
+}
+
+@media only screen and (max-width: 800px) {
+  .fas{
+    display: none;
+}
+
+.icono{
+  display: none;
+}
+
+.close{
+  display: block;
+}
+.content{
+  width:80%;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 592px) {
+  h1{
+    font-size: 30px;
+}}
+
+@media only screen and (max-width: 300px) {
+  h1{
+    font-size: 30px;
+}
+
+.main_menu{
+flex-direction: column;
+}
+#main-logo {
+  display: block;
+  margin: auto;
+  padding: 5% 0% 0% 0%;
+  height: 40%;
+  width: 47%;
+}
+}
+
